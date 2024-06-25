@@ -79,10 +79,21 @@ body {
     margin-bottom: -1vw;
 }
 
+footer {
+    color: white;
+    position: relative;
+    top: 70%;
+    text-align: center;
+}
+
 @media(max-width: 768px) {
     #main {
         width: 95%;
         text-align: center;
+    }
+
+    #main h1 {
+        margin: 30px 20px;
     }
 
     .input-header {
@@ -96,13 +107,13 @@ body {
 
     .to-do-input input {
         width: 200px;
-        height: 25px;
+        height: 30px;
         margin: 0 10px;
     }
 
     .to-do-input button {
         width: 50px;
-        height: 25px;
+        height: 30px;
     }
 
     .to-do-list i {
@@ -120,5 +131,9 @@ body {
         width: 200px;
         height: 30px;
         margin-right: 50px;
+    }
+
+    footer {
+        top: 80%;
     }
 }
